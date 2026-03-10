@@ -12,11 +12,12 @@ Task Write a program to compute:
  The
  most common action 
  
- Approach:
+Approach:
 The log file is processed line-by-line using BufferedReader.
 We maintain two HashMaps to count user actions and action frequency.
+
 Data Structures:
 HashMap for counting occurrences.
-Time Complexity: O(n)
+Time Complexity: O(n) and
 Space Complexity: O(u + a)
 The solution efficiently handles large log files without loading the entire file into memory.
